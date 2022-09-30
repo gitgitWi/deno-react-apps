@@ -1,0 +1,10 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.config": "./deno.json",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "prettier.printWidth": 90,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all"
+}
