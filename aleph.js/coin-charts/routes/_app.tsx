@@ -1,12 +1,14 @@
-import {} from 'https://esm.sh/@tanstack/react-query@4.8.0';
+import { QueryClient, QueryClientProvider } from 'react-query';
 
-import Header from '../components/Header.tsx';
+import Header from '@/components/Header.tsx';
+
+const queryClient = new QueryClient();
 
 export default function App({ children }: { children: React.ReactNode }) {
   return (
-    <>
+    <QueryClientProvider client={queryClient}>
       <Header />
       {children}
-    </>
+    </QueryClientProvider>
   );
 }

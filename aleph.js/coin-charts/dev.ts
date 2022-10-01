@@ -1,4 +1,3 @@
-import 'std/dotenv/load.ts';
 import dev from 'aleph/dev';
 
 dev({
