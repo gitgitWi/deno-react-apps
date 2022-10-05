@@ -4,7 +4,7 @@ import { useQuery } from 'react-query';
 
 export default function Index() {
   const { data } = useQuery(['index-query-test'], () => {
-    return fetch(`/api/ohlcv?ticker=${'X:ETCUSD'}`).then((res) => res.json());
+    return fetch(`/api/ohlcv?ticker=${'ETCUSD'}`).then((res) => res.json());
   });
 
   return (
