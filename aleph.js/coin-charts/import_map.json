@@ -17,7 +17,9 @@
     "react-dom/": "https://esm.sh/react-dom@18.2.0/",
     "react-query": "https://esm.sh/@tanstack/react-query@4.8.0",
     "react-stockcharts": "https://esm.sh/react-stockcharts@0.7.8",
-    "recoil": "https://esm.sh/recoil@0.7.5"
+    "recoil": "https://esm.sh/recoil@0.7.5",
+    "sqlite": "https://deno.land/x/sqlite@v3.5.0",
+    "sqlite/": "https://deno.land/x/sqlite@v3.5.0/"
   },
   "scopes": {}
 }
