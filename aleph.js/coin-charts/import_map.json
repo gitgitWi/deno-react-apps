@@ -19,7 +19,8 @@
     "react-stockcharts": "https://esm.sh/react-stockcharts@0.7.8",
     "recoil": "https://esm.sh/recoil@0.7.5",
     "sqlite": "https://deno.land/x/sqlite@v3.5.0",
-    "sqlite/": "https://deno.land/x/sqlite@v3.5.0/"
+    "sqlite/": "https://deno.land/x/sqlite@v3.5.0/",
+    "aws-sdk/client-dynamodb": "https://cdn.skypack.dev/@aws-sdk/client-dynamodb?dts"
   },
   "scopes": {}
 }
