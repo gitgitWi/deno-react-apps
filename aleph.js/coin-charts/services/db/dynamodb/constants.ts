@@ -1,10 +1,10 @@
-const coinDaily = 'coinDaily';
-const coinWeekly = 'coinWeekly';
-const coinHourly = 'coinHourly';
+const coinDaily = 'coin-daily';
+const coinWeekly = 'coin-weekly';
+const coinHourly = 'coin-hourly';
 
 export type TableNames = typeof coinDaily | typeof coinWeekly | typeof coinHourly;
 
-export const TABLES: Record<TableNames, TableNames> = {
+export const TABLES = {
   coinDaily,
   coinWeekly,
   coinHourly,
