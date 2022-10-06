@@ -6,6 +6,7 @@ import * as $1 from "./_app.tsx";
 import * as $2 from "./index.tsx";
 import * as $3 from "./todos.tsx";
 import * as $4 from "./api/ohlcv.ts";
+import * as $5 from "./api/ohlcv-sqlite.ts";
 
 export default {
   "/_404": $0,
@@ -13,4 +14,5 @@ export default {
   "/": $2,
   "/todos": $3,
   "/api/ohlcv": $4,
+  "/api/ohlcv-sqlite": $5,
 };
