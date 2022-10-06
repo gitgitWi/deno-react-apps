@@ -1,6 +1,6 @@
 import { POLYGON_API } from '@/constants/mod.ts';
 
-import { DynamoDBAdapter, TABLES } from '@/services/db/dynamodb/mod.ts';
+import { dynamoDbAdapter, TABLES } from '@/services/db/dynamodb/mod.ts';
 
 export const GET = async (req: Request) => {
   const params = new URL(req.url).searchParams;
